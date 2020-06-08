@@ -41,9 +41,9 @@ Social distancing is a method used to control the spread of contagious diseases.
 ```
 
 ## Usage :computer:
-* Caution :bomb:
+* Caution :bomb:\
 For most accurate results, you should calibrate your camera through intrinsic/extrinsic parameters so that you can map pixels to measurable units.
-An easier alternative(but less accurate) method would be to apply triangle similarity calibaration. Both of these methods can be used to map pixels to measurable units.
+An easier alternative(but less accurate) method would be to apply triangle similarity calibaration. Both of these methods can be used to map pixels to measurable units.\
 If you do not want/cannot apply camera calibration, you can still utilize the social distancing detector but you'll have to rely strictly on the pixel distances, which won't necessarily be accurate.
 For the sake of simplicity, this OpenCV Social Distancing detector implementation will rely on pixel distances. 
 You can extend the implementation as you see fit though :wink:.
