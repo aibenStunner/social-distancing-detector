@@ -20,6 +20,10 @@ Social distancing is a method used to control the spread of contagious diseases.
 </p>
 
 ## Features :gem:
+* Object detection using the YOLO COCO model to detect only people in a video stream.
+* Computes the pairwise distances between all detected people.
+* Based on the computed distances, we determine whether social distancing rule is being violated or not.
+
 
 ## Installation :package:
 
@@ -37,6 +41,12 @@ Social distancing is a method used to control the spread of contagious diseases.
 ```
 
 ## Usage :computer:
+* Caution :bomb:
+For most accurate results, you should calibrate your camera through intrinsic/extrinsic parameters so that you can map pixels to measurable units.
+An easier alternative(but less accurate) method would be to apply triangle similarity calibaration. Both of these methods can be used to map pixels to measurable units.
+If you do not want/cannot apply camera calibration, you can still utilize the social distancing detector but you'll have to rely strictly on the pixel distances, which won't necessarily be accurate.
+For the sake of simplicity, this OpenCV Social Distancing detector implementation will rely on pixel distances. 
+You can extend the implementation as you see fit though :wink:.
 
 ## Demo :movie_camera:
 
