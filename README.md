@@ -6,7 +6,13 @@ A social distancing detector built with OpenCV using YOLO(COCO model) object det
 
 <h2> Motivation<span style='font-size:100px;'>&#127775;</span></h2>	
 <p>
+Social distancing is a method used to control the spread of contagious diseases. It implies that people physically distance themselves from one another, reducing close contact, and thereby reducing the spread of a contagious disease (such as the COVID-19 Disease). Social distancing is not a new concept, dating back to the fifth century, and has even been referenced in religious text such as the Bible.
 </p>
+> And the leper in whom the plague is … he shall dwell alone; [outside] the camp shall his habitation be. — Leviticus 13:46
+<p align="center">
+  <img src="images/social_distance_detector_spread.gif" title="Social distancing is crucial to the prevention of the spread of disease.">
+</p>
+
 
 ## Features :gem:
 
@@ -38,7 +44,7 @@ Please make sure to update tests as appropriate.
 * I'm on <a href="https://www.hackerrank.com/aiben_">HackerRank</a> too.:relaxed:
 
 ## References :book:
-
+<a href="https://en.wikipedia.org/wiki/Social_distancing">Social Distancing</a>
 
 ## Todos :pencil:
 
