@@ -64,8 +64,7 @@ If you are interested in helping or have something to suggest or just want to ch
 - I'm on <a href="https://www.hackerrank.com/aiben_">HackerRank</a> too.:relaxed:
 
 ## References :book:
-
-<a href="https://en.wikipedia.org/wiki/Social_distancing">Social Distancing</a>
+* <a href="https://en.wikipedia.org/wiki/Social_distancing">Social Distancing</a>
 
 ## Todos :pencil:
 
