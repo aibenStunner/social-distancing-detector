@@ -11,7 +11,9 @@ Social distancing is a method used to control the spread of contagious diseases.
 
 > And the leper in whom the plague is … he shall dwell alone; [outside] the camp shall his habitation be. — Leviticus 13:46
 
-![](images/social_distance_detector_spread.gif)
+<p align="center">
+  <img src="images/social_distance_detector_spread.gif">
+</p>
 
 <p align="center">
    Social distancing is crucial to the prevention of the spread of disease.
