@@ -48,6 +48,11 @@ If you do not want/cannot apply camera calibration, you can still utilize the so
 For the sake of simplicity, this OpenCV Social Distancing detector implementation will rely on pixel distances. 
 You can extend the implementation as you see fit though :wink:.
 
+* YOLO COCO weights\
+The weight file exceeds the github limits but can be download from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a>.\
+Add the weight file to the yolo-coco folder.
+
+
 ## Demo :movie_camera:
 
 ## Contributing :gift: [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
