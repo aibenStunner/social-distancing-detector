@@ -1,6 +1,6 @@
 # imports
-from config import NMS_THRESH
-from config import MIN_CONF
+from .config import NMS_THRESH
+from .config import MIN_CONF
 import numpy as np
 import cv2
 
@@ -14,6 +14,7 @@ def detect_people(frame, net, ln, personIdx=0):
     # of the YOLO object detector, giving us the bounding boxes and
     # associated probabilities
     blob = cv2.dnn.blobFromImage(frame, 1 / 255.0, (416, 416), swapRB=True, crop=False)
+    net.setInput(blob)
     layerOutputs = net.forward(ln)
 
     # initialize lists of detected bounding boxes, centroids, and confidence
@@ -50,7 +51,7 @@ def detect_people(frame, net, ln, personIdx=0):
                 confidences.append(float(confidence))
 
     # apply non-maxima suppression to suppress weak, overlapping bounding boxes
-    idxs = cv2.dnn.NMSBoxes(boxes, confidence, MIN_CONF, NMS_THRESH)
+    idxs = cv2.dnn.NMSBoxes(boxes, confidences, MIN_CONF, NMS_THRESH)
 
     # ensure at least one detection exists
     if len(idxs) > 0:
