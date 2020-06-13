@@ -40,6 +40,11 @@ Social distancing is a method used to control the spread of contagious diseases.
    $ pip install -r requirements.txt
 ```
 
+3. Run the main social distancing detector file. (set display to 1 if you want to see output video as processing occurs)
+```bash
+   $ python social_distance_detector.py --input pedestrians.mp4 --output output.avi --display 0
+```
+
 ## Usage :computer:
 * Caution :bomb:\
 For most accurate results, you should calibrate your camera through intrinsic/extrinsic parameters so that you can map pixels to measurable units.
@@ -52,6 +57,8 @@ You can extend the implementation as you see fit though :wink:.
 The weight file exceeds the github limits but can be download from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a>.\
 Add the weight file to the yolo-coco folder.
 
+* GPU\
+Provided you already have OpenCV installed with NVIDIA GPU support, all you need to do is set ```bash USE_GPU=True``` in your ```bash config.py``` file.
 
 ## Demo :movie_camera:
 
