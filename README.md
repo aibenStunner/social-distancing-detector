@@ -61,7 +61,7 @@ Add the weight file to the yolo-coco folder.
 Provided you already have OpenCV installed with NVIDIA GPU support, all you need to do is set ```USE_GPU=True``` in your ```config.py``` file.
 
 ## Demo :movie_camera:
-![alt-text-1](demo0.gif "title-1") ![alt-text-2](demo1.gif "title-2")
+![alt-text-1](res/demo0.gif "title-1") ![alt-text-2](res/demo1.gif "title-2")
 
 ## Contributing :gift: [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
