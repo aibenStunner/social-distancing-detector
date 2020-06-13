@@ -58,9 +58,10 @@ The weight file exceeds the github limits but can be download from <a href="http
 Add the weight file to the yolo-coco folder.
 
 * GPU\
-Provided you already have OpenCV installed with NVIDIA GPU support, all you need to do is set ```bash USE_GPU=True``` in your ```bash config.py``` file.
+Provided you already have OpenCV installed with NVIDIA GPU support, all you need to do is set ```USE_GPU=True``` in your ```config.py``` file.
 
 ## Demo :movie_camera:
+![alt-text-1](demo0.gif "title-1") ![alt-text-2](demo1.gif "title-2")
 
 ## Contributing :gift: [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
