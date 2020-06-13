@@ -42,7 +42,7 @@ Social distancing is a method used to control the spread of contagious diseases.
 
 3. Run the main social distancing detector file. (set display to 1 if you want to see output video as processing occurs)
 ```bash
-   $ python social_distance_detector.py --input pedestrians.mp4 --output output.avi --display 0
+   $ python social_distancing_detector.py --input pedestrians.mp4 --output output.avi --display 0
 ```
 
 ## Usage :computer:
@@ -61,7 +61,7 @@ Add the weight file to the yolo-coco folder.
 Provided you already have OpenCV installed with NVIDIA GPU support, all you need to do is set ```USE_GPU=True``` in your ```config.py``` file.
 
 ## Demo :movie_camera:
-![alt-text-1](res/demo0.gif "title-1") ![alt-text-2](res/demo1.gif "title-2")
+![raw-vid](res/demo0.gif "Unprocessed video") ![processed-vid](res/demo1.gif "Processed video")
 
 ## Contributing :gift: [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
@@ -78,8 +78,14 @@ If you are interested in helping or have something to suggest or just want to ch
 
 ## References :book:
 * <a href="https://en.wikipedia.org/wiki/Social_distancing">Social Distancing</a>
+* <a href="https://www.reddit.com/r/computervision/comments/gf4zhj/automatic_social_distance_measurement/">Automatic social distance measurement</a>
+<a href="https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6661455400346492928/">Rohit Kumar Srivastava’s social distancing implementation</a>
+<a href="https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6655464103798157312/">Venkatagiri Ramesh’s social distancing project</a>
 
 ## Todos :pencil:
+* Utilize proper camera calibration.
+* Apply top-down transformation of view angle.
+* Improve the poeple detection process.
 
 ## License :key:
 
