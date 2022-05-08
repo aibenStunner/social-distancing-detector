@@ -77,6 +77,7 @@ If you are interested in helping or have something to suggest or just want to ch
 - I'm on <a href="https://www.hackerrank.com/aiben_">HackerRank</a> too.:relaxed:
 
 ## References :book:
+* Inspiration from Adrian Rosebrock's <a href="https://en.wikipedia.org/wiki/Social_distancing">OpenCV Social Distancing Detector</a> :heart:
 * <a href="https://en.wikipedia.org/wiki/Social_distancing">Social Distancing</a>
 * <a href="https://www.reddit.com/r/computervision/comments/gf4zhj/automatic_social_distance_measurement/">Automatic social distance measurement</a>
 * <a href="https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6661455400346492928/">Rohit Kumar Srivastava’s social distancing implementation</a>
