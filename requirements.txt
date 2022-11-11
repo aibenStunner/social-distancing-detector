@@ -4,7 +4,7 @@ imutils==0.5.3
 isort==4.3.21
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
-numpy==1.18.5
+numpy==1.22.0
 opencv-python==4.2.0.34
 pylint==2.5.3
 scipy==1.4.1
