@@ -7,7 +7,7 @@ mccabe==0.6.1
 numpy==1.22.0
 opencv-python==4.2.0.34
 pylint==2.5.3
-scipy==1.4.1
+scipy==1.10.0
 six==1.15.0
 toml==0.10.1
 typed-ast==1.4.1
